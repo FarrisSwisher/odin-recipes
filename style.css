@@ -1,9 +1,43 @@
-img {
-    height: 500px;
-    width: auto;   
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    background-color: #DFBBB9;
+    color: #1C0B19;
 }
+
+/*img {
+    height: 500px;
+    width: auto;
+}*/
 
 h1 {
     display: flex;
     justify-content: center;
+}
+
+p {
+    margin: 4px 0px;
+}
+
+li {
+    margin: 4px 0px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: solid;
+    color: #49416D;
+    background-color: #C3DAC3;
+    font-weight: bolder;
+}
+
+.return {
+    align-items: flex-start;
 }
